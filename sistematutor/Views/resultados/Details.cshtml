@@ -1,0 +1,42 @@
+﻿@model sistematutor.Models.resultados
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Detalles</h2>
+
+<div>
+    <h4>resultados</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.id_respuestas_correctas)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.id_respuestas_correctas)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.id_respuestas_incorrectas)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.id_respuestas_incorrectas)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.id_ejercicio)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.id_ejercicio)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.id_usuario)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.id_usuario)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.id_resultados">Editar</a> |
+    <a asp-action="Index">Regresar ala lista</a>
+</div>

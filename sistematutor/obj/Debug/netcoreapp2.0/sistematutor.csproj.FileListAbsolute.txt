@@ -1,0 +1,11 @@
+C:\Users\gustavo mondragon\source\repos\sistematutor\sistematutor\bin\Debug\netcoreapp2.0\sistematutor.deps.json
+C:\Users\gustavo mondragon\source\repos\sistematutor\sistematutor\bin\Debug\netcoreapp2.0\sistematutor.runtimeconfig.json
+C:\Users\gustavo mondragon\source\repos\sistematutor\sistematutor\bin\Debug\netcoreapp2.0\sistematutor.runtimeconfig.dev.json
+C:\Users\gustavo mondragon\source\repos\sistematutor\sistematutor\bin\Debug\netcoreapp2.0\sistematutor.dll
+C:\Users\gustavo mondragon\source\repos\sistematutor\sistematutor\obj\Debug\netcoreapp2.0\sistematutor.csprojAssemblyReference.cache
+C:\Users\gustavo mondragon\source\repos\sistematutor\sistematutor\obj\Debug\netcoreapp2.0\sistematutor.csproj.CoreCompileInputs.cache
+C:\Users\gustavo mondragon\source\repos\sistematutor\sistematutor\obj\Debug\netcoreapp2.0\sistematutor.AssemblyInfoInputs.cache
+C:\Users\gustavo mondragon\source\repos\sistematutor\sistematutor\obj\Debug\netcoreapp2.0\sistematutor.AssemblyInfo.cs
+C:\Users\gustavo mondragon\source\repos\sistematutor\sistematutor\bin\Debug\netcoreapp2.0\sistematutor.pdb
+C:\Users\gustavo mondragon\source\repos\sistematutor\sistematutor\obj\Debug\netcoreapp2.0\sistematutor.dll
+C:\Users\gustavo mondragon\source\repos\sistematutor\sistematutor\obj\Debug\netcoreapp2.0\sistematutor.pdb

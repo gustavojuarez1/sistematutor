@@ -1,0 +1,33 @@
+﻿@model sistematutor.Models.retroalimentacion_preguntas
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Estas seguro de que lo quieres eliminar?</h3>
+<div>
+    <h4>retroalimentacion_preguntas</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.id_ejercicio)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.id_ejercicio)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.id_temas)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.id_temas)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="id_retroalimentacion" />
+        <input type="submit" value="Eliminar" class="btn btn-default" /> |
+        <a asp-action="Index">Regresar al listado</a>
+    </form>
+</div>

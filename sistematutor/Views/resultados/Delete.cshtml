@@ -1,0 +1,45 @@
+﻿@model sistematutor.Models.resultados
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h2>Eliminar</h2>
+
+<h3>Estas Seguro que lo quieres eliminar?</h3>
+<div>
+    <h4>resultados</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.id_respuestas_correctas)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.id_respuestas_correctas)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.id_respuestas_incorrectas)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.id_respuestas_incorrectas)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.id_ejercicio)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.id_ejercicio)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.id_usuario)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.id_usuario)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="id_resultados" />
+        <input type="submit" value="Eliminar" class="btn btn-default" /> |
+        <a asp-action="Index">Regresar al listado</a>
+    </form>
+</div>
